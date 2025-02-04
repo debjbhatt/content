@@ -1,23 +1,21 @@
+# Do not add comments to this file. They will be lost.
+
 sidebar:
   - type: section
     link: /Web/XSLT
   - type: listSubPages
-    path: /en-US/docs/Web/XSLT/Transforming_XML_with_XSLT
-
+    path: /Web/XSLT/Guides/Transforming_XML_with_XSLT
   - type: section
-    link: /Web/XSLT/Element
+    link: /Web/XSLT/Reference/Element
   - type: listSubPages
-    path: /en-US/docs/Web/XSLT/Element
-
+    path: /Web/XSLT/Reference/Element
   - type: section
     link: /Web/EXSLT
   - type: listSubPages
-    path: /en-US/docs/Web/EXSLT
-
+    path: /Web/EXSLT
   - type: section
-    link: /Web/XPath/Functions
+    link: /Web/XPath/Reference/Functions
   - type: listSubPages
-    path: /en-US/docs/Web/XPath/Functions
-
+    path: /Web/XPath/Reference/Functions
   - type: section
-    link: /Web/XPath/Axes
+    link: /Web/XPath/Reference/Axes

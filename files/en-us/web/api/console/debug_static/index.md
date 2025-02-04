@@ -2,7 +2,7 @@
 title: "console: debug() static method"
 short-title: debug()
 slug: Web/API/console/debug_static
-page-type: web-api-instance-method
+page-type: web-api-static-method
 browser-compat: api.console.debug_static
 ---
 
@@ -45,5 +45,5 @@ None ({{jsxref("undefined")}}).
 ## See also
 
 - [Microsoft Edge's documentation for `console.debug()`](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#debug)
-- [Node.JS documentation for `console.debug()`](https://nodejs.org/docs/latest/api/console.html#consoledebugdata-args)
+- [Node.js documentation for `console.debug()`](https://nodejs.org/docs/latest/api/console.html#consoledebugdata-args)
 - [Google Chrome's documentation for `console.debug()`](https://developer.chrome.com/docs/devtools/console/api/#debug)
