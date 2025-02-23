@@ -2,7 +2,7 @@
 title: "console: trace() static method"
 short-title: trace()
 slug: Web/API/console/trace_static
-page-type: web-api-instance-method
+page-type: web-api-static-method
 browser-compat: api.console.trace_static
 ---
 
@@ -63,5 +63,5 @@ foo
 ## See also
 
 - [Microsoft Edge's documentation for `console.trace()`](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#trace)
-- [Node.JS documentation for `console.trace()`](https://nodejs.org/docs/latest/api/console.html#consoletracemessage-args)
+- [Node.js documentation for `console.trace()`](https://nodejs.org/docs/latest/api/console.html#consoletracemessage-args)
 - [Google Chrome's documentation for `console.trace()`](https://developer.chrome.com/docs/devtools/console/api/#trace)

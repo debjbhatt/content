@@ -7,7 +7,7 @@ browser-compat: css.types.counter
 
 {{CSSRef}}
 
-The **`counter()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/CSS_Functions) returns a string representing the current value of the named counter, if there is one.
+The **`counter()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_Value_Functions) returns a string representing the current value of the named counter, if there is one.
 
 The `counter()` function is generally used within [pseudo-element](/en-US/docs/Web/CSS/Pseudo-elements) through the {{cssxref("content")}} property but, theoretically, it can be used wherever a [`<string>`](/en-US/docs/Web/CSS/string) value is supported.
 
@@ -16,7 +16,7 @@ The `counter()` function is generally used within [pseudo-element](/en-US/docs/W
 ## Syntax
 
 ```css
-/* Simple usage */
+/* Basic usage */
 counter(counter-name);
 
 /* changing the counter display */
@@ -38,7 +38,7 @@ The `counter()` function accepts up to two parameters. The first parameter is th
 > [!NOTE]
 > To join the counter values when nesting counters, use the {{cssxref("counters", "counters()")}} function, which provides an additional {{cssxref("string")}} parameter.
 
-### Formal syntax
+## Formal syntax
 
 {{CSSSyntax}}
 

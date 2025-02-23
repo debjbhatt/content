@@ -9,7 +9,7 @@ browser-compat:
 
 {{CSSRef}}
 
-The **`fit-content()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/CSS_Functions) clamps a given size to an available size according to the formula `min(maximum size, max(minimum size, argument))`.
+The **`fit-content()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_Value_Functions) clamps a given size to an available size according to the formula `min(maximum size, max(minimum size, argument))`.
 
 {{EmbedInteractiveExample("pages/css/function-fit-content.html")}}
 
@@ -43,6 +43,10 @@ fit-content(40%)
   - : A percentage relative to the available space in the given axis.
 
     In grid properties it is relative to the inline size of the grid container in column tracks and to the block size of the grid container for row tracks. Otherwise it is relative to the available inline size or block size of the laid out box depending on the writing mode.
+
+## Formal syntax
+
+{{CSSSyntax("fit-content")}}
 
 ## Examples
 

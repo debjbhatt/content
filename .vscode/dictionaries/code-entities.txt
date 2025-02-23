@@ -31,6 +31,7 @@
 -moz-visitedhyperlinktext
 -moz-win-communicationstext
 -moz-win-mediatext
+3rdparty
 accentcolor
 accentcolortext
 Accept-EncodXng
@@ -169,6 +170,7 @@ devtools.errorconsole
 devtools.inspector.ruleview
 devtools.netmonitor
 devtools.webconsole
+diak
 dialogheight
 dialogleft
 dialogtext
@@ -252,6 +254,7 @@ FunciOES
 funcref
 fwdred
 fwid
+gara
 gattserverdisconnected
 geometrychange
 geor
@@ -269,6 +272,7 @@ Grek
 greklow
 GSUB
 gujr
+gukh
 gulpfile
 hanidays
 hanidec
@@ -298,6 +302,7 @@ importmap
 imscjs
 inactivetitlebarcolor
 indexeddb-examples
+indexifembedded
 inputreport
 inputsourceschange
 intl.uidirection.locale
@@ -321,6 +326,7 @@ jsdouble
 jspubtd.h
 jsval
 kaios
+kawi
 kerx
 Key_Codeinput
 KEY_dead_abovecomma
@@ -353,6 +359,8 @@ keywordsearch
 khmr
 KIND_NONHEAP
 knda
+Kore
+krai
 lanatham
 laoo
 largeop
@@ -392,6 +400,7 @@ mathsans
 mathtt
 max-smbps
 maxplaybackrate
+mdnsidebar
 media.autoplay.block-webaudio
 media.getusermedia
 media.mediasource
@@ -415,6 +424,7 @@ mkcol
 mkvirtualenv
 mlabeledtr
 mlym
+MMDD
 Mobi
 mod_autoindex
 modif
@@ -437,9 +447,12 @@ msword
 mtei
 mths
 mymr
+mymrepka
+mymrpao
 mymrshan
 mymrtlng
 nacl_arch
+nagm
 nalt
 navigateerror
 navigatesuccess
@@ -490,6 +503,7 @@ Okhsl
 Okhsv
 olck
 oldstyle
+onao
 onbeforematch
 onbeforetoggle
 oncanmakepayment
@@ -667,6 +681,7 @@ streamfilter
 stripsurroundingwhitespace
 SUBDOCUMENT
 sund
+sunu
 superspeed
 SVGDOMElement
 SVGHKernElement
@@ -695,6 +710,7 @@ tibt
 Timecount
 tirh
 titl
+tnsa
 todoapp
 togglecamera
 togglemicrophone
@@ -776,6 +792,7 @@ wcho
 wdth
 weba
 webappmanifest
+webassemblysidebar
 webauthn
 webbundle
 webcal

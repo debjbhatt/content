@@ -18,7 +18,7 @@ To link an external stylesheet, you'd include a `<link>` element inside your {{H
 <link href="main.css" rel="stylesheet" />
 ```
 
-This simple example provides the path to the stylesheet inside an `href` attribute, and a [`rel`](/en-US/docs/Web/HTML/Attributes/rel) attribute with a value of `stylesheet`. The `rel` stands for "relationship", and is one of the key features of the `<link>` element — the value denotes how the item being linked to is related to the containing document.
+This example provides the path to the stylesheet inside an `href` attribute and a [`rel`](/en-US/docs/Web/HTML/Attributes/rel) attribute with a value of `stylesheet`. The `rel` stands for "relationship", and is one of the key features of the `<link>` element — the value denotes how the item being linked to is related to the containing document.
 
 There are a number of other common types you'll come across. For example, a link to the site's favicon:
 
@@ -265,7 +265,7 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Global_attrib
 
 - `title`
   - : The `title` attribute has special semantics on the `<link>` element.
-    When used on a `<link rel="stylesheet">` it defines a [default or an alternate stylesheet](/en-US/docs/Web/CSS/Alternative_style_sheets).
+    When used on a `<link rel="stylesheet">` it defines a [default or an alternate stylesheet](/en-US/docs/Web/HTML/Attributes/rel/alternate_stylesheet).
 - `type`
   - : This attribute is used to define the type of the content linked to.
     The value of the attribute should be a MIME type such as **text/html**, **text/css**, and so on.
@@ -310,7 +310,7 @@ To include a stylesheet in a page, use the following syntax:
 
 ### Providing alternative stylesheets
 
-You can also specify [alternative style sheets](/en-US/docs/Web/CSS/Alternative_style_sheets).
+You can also specify [alternative style sheets](/en-US/docs/Web/HTML/Attributes/rel/alternate_stylesheet).
 
 The user can choose which style sheet to use by choosing it from the **View > Page Style** menu.
 This provides a way for users to see multiple versions of a page.

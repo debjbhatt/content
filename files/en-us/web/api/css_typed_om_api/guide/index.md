@@ -138,7 +138,7 @@ Let's write a plain paragraph, apply no styles, and inspect a few of its CSS pro
 
 ```html
 <p>
-   This is a paragraph with some content. Open up this example in Codepen or
+   This is a paragraph with some content. Open up this example in CodePen or
    JSFiddle, and change some features. Try adding some CSS, such as a width
    for this paragraph, or adding a CSS property to the ofInterest array.
 </p>
@@ -331,7 +331,7 @@ The following examples reference `allComputedStyles`:
 
 ### CSSUnparsedValue
 
-The {{domxref('CSSUnparsedValue')}} represents [custom properties](/en-US/docs/Web/CSS/Using_CSS_custom_properties):
+The {{domxref('CSSUnparsedValue')}} represents [custom properties](/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties):
 
 ```js
 // CSSUnparsedValue

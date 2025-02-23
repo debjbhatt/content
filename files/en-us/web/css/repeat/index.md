@@ -7,7 +7,7 @@ browser-compat: css.properties.grid-template-columns.repeat
 
 {{CSSRef}}
 
-The **`repeat()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/CSS_Functions) represents a repeated fragment of the [track list](/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout), allowing a large number of columns or rows that exhibit a recurring pattern to be written in a more compact form.
+The **`repeat()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_Value_Functions) represents a repeated fragment of the [track list](/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout), allowing a large number of columns or rows that exhibit a recurring pattern to be written in a more compact form.
 
 {{EmbedInteractiveExample("pages/css/function-repeat.html")}}
 
@@ -117,6 +117,10 @@ There is a fourth form, `<name-repeat>`, which is used to add line names to subg
   - : Represents the largest max-content contribution of the grid items occupying the grid track.
 - `min-content`
   - : Represents the largest min-content contribution of the grid items occupying the grid track.
+
+## Formal syntax
+
+{{CSSSyntaxRaw(`<track-repeat> <auto-repeat> <fixed-repeat> <name-repeat>`)}}
 
 ## Examples
 

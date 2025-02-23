@@ -7,7 +7,7 @@ browser-compat: css.types.transform-function.matrix
 
 {{CSSRef}}
 
-The **`matrix()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/CSS_Functions) defines a homogeneous 2D transformation matrix. Its result is
+The **`matrix()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_Value_Functions) defines a homogeneous 2D transformation matrix. Its result is
 a {{cssxref("&lt;transform-function&gt;")}} data type.
 
 {{EmbedInteractiveExample("pages/css/function-matrix.html")}}
@@ -70,7 +70,11 @@ matrix(a, b, c, d, tx, ty)
 </table>
 
 The values represent the following functions:
-`matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())`
+`matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())`.
+
+## Formal syntax
+
+{{CSSSyntax}}
 
 ## Examples
 

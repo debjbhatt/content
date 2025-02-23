@@ -7,7 +7,7 @@ browser-compat: css.types.max
 
 {{CSSRef}}
 
-The **`max()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/CSS_Functions) lets you set the largest (most positive) value from a list of comma-separated expressions as the value of a CSS property value. The `max()` function can be used anywhere a {{CSSxRef("&lt;length&gt;")}}, {{CSSxRef("&lt;frequency&gt;")}}, {{CSSxRef("&lt;angle&gt;")}}, {{CSSxRef("&lt;time&gt;")}}, {{CSSxRef("&lt;percentage&gt;")}}, {{CSSxRef("&lt;number&gt;")}}, or {{CSSxRef("&lt;integer&gt;")}} is allowed.
+The **`max()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_Value_Functions) lets you set the largest (most positive) value from a list of comma-separated expressions as the value of a CSS property value. The `max()` function can be used anywhere a {{CSSxRef("&lt;length&gt;")}}, {{CSSxRef("&lt;frequency&gt;")}}, {{CSSxRef("&lt;angle&gt;")}}, {{CSSxRef("&lt;time&gt;")}}, {{CSSxRef("&lt;percentage&gt;")}}, {{CSSxRef("&lt;number&gt;")}}, or {{CSSxRef("&lt;integer&gt;")}} is allowed.
 
 {{EmbedInteractiveExample("pages/css/function-max.html")}}
 
@@ -28,7 +28,7 @@ You can use different units for each value in your expression. You may also use 
 - The expression can be values combining the addition ( + ), subtraction ( - ), multiplication ( \* ) and division ( / ) operators, using standard operator precedence rules. Make sure to put a space on each side of the + and - operands. The operands in the expression may be any \<length> syntax value.
 - You can (and often need to) combine `min()` and `max()` values, or use `max()` within a `clamp()` or `calc()` function.
 
-### Formal syntax
+## Formal syntax
 
 {{CSSSyntax}}
 
@@ -90,4 +90,4 @@ Think of the `max()` function as finding the minimum value allowed for a propert
 - {{CSSxRef("calc", "calc()")}}
 - {{CSSxRef("clamp", "clamp()")}}
 - {{CSSxRef("min", "min()")}}
-- [CSS Values](/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
+- [Learn: Values and units](/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units)

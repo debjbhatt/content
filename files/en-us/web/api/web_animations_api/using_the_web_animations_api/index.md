@@ -20,7 +20,7 @@ One of the more familiar ways to approach learning the Web Animations API is to 
 
 ### The CSS version
 
-Here's a tumbling animation written in CSS showing Alice falling down the rabbit hole that leads to Wonderland (see the full [code on Codepen](https://codepen.io/rachelnabors/pen/QyOqqW)):
+Here's a tumbling animation written in CSS showing Alice falling down the rabbit hole that leads to Wonderland (see the full [code on CodePen](https://codepen.io/rachelnabors/pen/QyOqqW)):
 
 [![Alice Tumbling down the rabbit's hole.](tumbling-alice_optimized.gif)](https://codepen.io/rachelnabors/pen/rxpmJL)
 
@@ -99,7 +99,7 @@ Now it's time to bring them both together with the {{domxref("Element.animate()"
 document.getElementById("alice").animate(aliceTumbling, aliceTiming);
 ```
 
-And boom: the animation starts playing (see the finished [version on Codepen](https://codepen.io/rachelnabors/pen/rxpmJL)).
+And boom: the animation starts playing (see the finished [version on CodePen](https://codepen.io/rachelnabors/pen/rxpmJL)).
 
 The `animate()` method can be called on any DOM element that could be animated with CSS. And it can be written in several ways. Instead of making objects for keyframes and timing properties, we could just pass their values in directly, like so:
 
@@ -132,7 +132,7 @@ document.getElementById("alice").animate(
 
 ## Controlling playback with play(), pause(), reverse(), and updatePlaybackRate()
 
-While we can write CSS Animations with the Web Animations API, where the API really comes in handy is manipulating the animation's playback. The Web Animations API provides several useful methods for controlling playback. Let's take a look at pausing and playing animations in the Growing/Shrinking Alice game (check out the [full code on Codepen](https://codepen.io/rachelnabors/pen/PNYGZQ)):
+While we can write CSS Animations with the Web Animations API, where the API really comes in handy is manipulating the animation's playback. The Web Animations API provides several useful methods for controlling playback. Let's take a look at pausing and playing animations in the Growing/Shrinking Alice game (check out the [full code on CodePen](https://codepen.io/rachelnabors/pen/PNYGZQ)):
 
 [![Playing the growing and shrinking game with Alice.](growing-shrinking_article_optimized.gif)](https://codepen.io/rachelnabors/pen/PNYGZQ?editors=0010)
 
@@ -206,7 +206,7 @@ bottle.addEventListener("mousedown", shrinkAlice, false);
 bottle.addEventListener("touchstart", shrinkAlice, false);
 ```
 
-In [Through the Looking-Glass](https://en.wikipedia.org/wiki/Through_the_Looking-Glass), Alice travels to a world where she must run to stay in place — and run twice as fast to move forward! In the Red Queen's Race example, Alice and the Red Queen are running to stay in place (check out the [full code on Codepen](https://codepen.io/rachelnabors/pen/PNGGaV)):
+In [Through the Looking-Glass](https://en.wikipedia.org/wiki/Through_the_Looking-Glass), Alice travels to a world where she must run to stay in place — and run twice as fast to move forward! In the Red Queen's Race example, Alice and the Red Queen are running to stay in place (check out the [full code on CodePen](https://codepen.io/rachelnabors/pen/PNGGaV)):
 
 [![Alice and the Red Queen race to get to the next square in this game.](red-queen-race_optimized.gif)](https://codepen.io/rachelnabors/pen/PNGGaV)
 
@@ -239,7 +239,7 @@ The background elements also have `playbackRate`s that are impacted when you cli
 When animating elements, a common use case is to persist the final state of the animation, after the animation has finished. One method sometimes used for this is to set the animation's [fill mode](/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#fill) to `forwards`. However, it is not recommended to use fill modes to persist the effect of an animation indefinitely, for two reasons:
 
 - The browser has to maintain the state of the animation while it is still active, so the animation continues to consume resources even though it is no longer animating. Note that this is somewhat alleviated by the browser [automatically removing filling animations](#automatically_removing_filling_animations).
-- Styles applied by animations have a [higher precedence in the cascade](/en-US/docs/Web/CSS/Cascade#cascading_order) than specified styles, so it can be difficult to override them when needed.
+- Styles applied by animations have a [higher precedence in the cascade](/en-US/docs/Web/CSS/CSS_cascade/Cascade#cascading_order) than specified styles, so it can be difficult to override them when needed.
 
 A better approach is to use the {{domxref("Animation.commitStyles()")}} method. This writes the computed values of the animation's current styles into its target element's [`style`](/en-US/docs/Web/HTML/Global_attributes/style) attribute, after which the element can be restyled normally.
 

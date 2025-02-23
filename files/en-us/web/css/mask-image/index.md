@@ -24,8 +24,8 @@ mask-image: linear-gradient(rgb(0 0 0 / 100%), transparent);
 mask-image: image(url(mask.png), skyblue);
 
 /* Multiple values */
-mask-image: image(url(mask.png), skyblue),
-  linear-gradient(rgb(0 0 0 / 100%), transparent);
+mask-image:
+  image(url(mask.png), skyblue), linear-gradient(rgb(0 0 0 / 100%), transparent);
 
 /* Global values */
 mask-image: inherit;
@@ -83,7 +83,8 @@ In the following cases, the mask is counted as a transparent black image layer:
   mask-size: 100%;
 
   background: red;
-  mask-image: url(https://mdn.github.io/shared-assets/images/examples/mask-star.svg),
+  mask-image:
+    url(https://mdn.github.io/shared-assets/images/examples/mask-star.svg),
     radial-gradient(transparent 50%, black);
 }
 ```
@@ -101,4 +102,4 @@ In the following cases, the mask is counted as a transparent black image layer:
 ## See also
 
 - [Clipping and Masking in CSS](https://css-tricks.com/clipping-masking-css/)
-- [Apply effects to images with CSS's mask-image property](https://web.dev/articles/css-masking)
+- [Apply effects to images with CSS's `mask-image` property](https://web.dev/articles/css-masking)

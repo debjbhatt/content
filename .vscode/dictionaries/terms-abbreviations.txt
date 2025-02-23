@@ -21,6 +21,7 @@ ANMF
 anonymization
 antialiasing
 antitracking
+apideck
 APNG
 appcontent
 arcosh
@@ -94,7 +95,6 @@ catchable
 CAVLC
 CCPA
 CCPL
-CDLR
 CELP
 CGATS
 cheatsheet
@@ -278,12 +278,14 @@ HPKE
 HPKP
 HTCPCP
 HVXC
+IACVT
 ICANN
 ICNS
 iconset
 idents
 IERS
 IMSC
+inferencing
 infobar
 infobox
 infoboxes
@@ -446,6 +448,7 @@ overscript
 overscripts
 overscrolling
 packetizer
+packetizing
 pageload
 paintable
 pantherina
@@ -520,6 +523,7 @@ QCIF
 QCMS
 QPACK
 QTFF
+qtrs
 quantizer
 quarternion
 querysets
@@ -528,6 +532,7 @@ quickmenu
 qvalues
 QWERTZ
 randomizer
+rari
 rasterizes
 RDBMS
 RDBMSes
@@ -561,6 +566,8 @@ retarget
 retargeted
 retargeting
 retargetings
+reviewdog
+RFCOMM
 RGTC
 roadmaps
 Rockhopper
@@ -628,6 +635,7 @@ snapport
 snapshotted
 snapshotting
 SNES
+spammy
 spatialization
 spatializations
 spatialize
@@ -675,6 +683,7 @@ sublocality
 submatch
 submatches
 subminor
+subminute
 subpage
 subpages
 subpanels
@@ -710,6 +719,7 @@ sundried
 sunsetting
 supercookie
 superdomain
+superpowered
 superscaling
 supersets
 SVCB
@@ -877,6 +887,7 @@ xrayed
 Xrays
 XRCPU
 XSSI
+yari
 yearless
 Zalgo
 zoomable

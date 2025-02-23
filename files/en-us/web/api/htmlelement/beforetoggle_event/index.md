@@ -18,7 +18,7 @@ Among other things, this event can be used to:
 
 - prevent an element from being shown.
 - add or remove classes or properties from the element or associated elements, for example to control the animation behaviour of a dialog as it is opened and closed.
-- clear the state of the element before before it is opened or after it is hidden, for example to reset a dialog form and return value to an empty state, or hide any nested manual popovers when reopening a popup.
+- clear the state of the element before it is opened or after it is hidden, for example to reset a dialog form and return value to an empty state, or hide any nested manual popovers when reopening a popup.
 
 ## Syntax
 
@@ -39,7 +39,7 @@ A {{domxref("ToggleEvent")}}. Inherits from {{domxref("Event")}}.
 ## Examples
 
 The examples below demonstrates how the `beforetoggle` event might be used for a {{domxref("Popover_API", "popover", "", "nocode")}} or {{htmlelement("dialog")}} element.
-The same examples would work similarily on the other element types.
+The same examples would work similarly on the other element types.
 
 ### Basic example
 
@@ -104,7 +104,7 @@ In this example we use a button to set whether the popover can open or not: in a
 
 #### HTML
 
-The HTML consists of a popover, a button for toggling it open and closed, and a button for setting wether the button can be opened.
+The HTML consists of a popover, a button for toggling it open and closed, and a button for setting whether the button can be opened.
 
 ```html
 <button popovertarget="mypopover">Toggle the popover</button>

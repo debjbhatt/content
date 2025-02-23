@@ -2,7 +2,7 @@
 title: "console: timeLog() static method"
 short-title: timeLog()
 slug: Web/API/console/timeLog_static
-page-type: web-api-instance-method
+page-type: web-api-static-method
 browser-compat: api.console.timeLog_static
 ---
 
@@ -107,4 +107,4 @@ Notice that the timer's name is displayed when the timer value is logged using `
 
 - {{domxref("console/time_static", "console.time()")}}
 - See {{domxref("console/timeEnd_static", "console.timeEnd()")}} for additional examples
-- [Node.JS documentation for `console.timeLog()`](https://nodejs.org/docs/latest/api/console.html#consoletimeloglabel-data)
+- [Node.js documentation for `console.timeLog()`](https://nodejs.org/docs/latest/api/console.html#consoletimeloglabel-data)

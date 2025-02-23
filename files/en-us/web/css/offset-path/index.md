@@ -62,7 +62,7 @@ The `offset-path` property takes as its value an `<offset-path>` value, a [`<coo
 
 - `<offset-path>`
 
-  - : A `ray()` function, a `<url>` value, or a `<basic-shape>` value that specifies the geometrical offset path. If omitted, the path shape for the `<coord-box>` value is `inset(0 round X)`, where `X` is the value of {{cssxref("border-radius")}} of the element that establishes the [containing block](/en-US/docs/Web/CSS/Containing_block).
+  - : A `ray()` function, a `<url>` value, or a `<basic-shape>` value that specifies the geometrical offset path. If omitted, the path shape for the `<coord-box>` value is `inset(0 round X)`, where `X` is the value of {{cssxref("border-radius")}} of the element that establishes the [containing block](/en-US/docs/Web/CSS/CSS_display/Containing_block).
 
     - {{cssxref("ray","ray()")}}
 
@@ -298,7 +298,7 @@ The SVG rectangle that defines the path shape is shown here only to visually dem
 - [SVG \<path>](/en-US/docs/Web/SVG/Tutorial/Paths)
 - {{cssxref("basic-shape/path","path()")}}
 - Other demos:
-  - [Examples using various shapes values](https://codepen.io/team/css-tricks/pen/WZdKMq) on Codepen by CSS-Tricks
-  - [Moving a triangle along a curved path](https://codepen.io/ericwilligers/pen/jMbJPp) on Codepen by Eric Willigers
-  - [Moving a pair of scissors along the shape of a house](https://codepen.io/ericwilligers/pen/bwVZNa) on Codepen by Eric Willigers
+  - [Examples using various shapes values](https://codepen.io/team/css-tricks/pen/WZdKMq) on CodePen by CSS-Tricks
+  - [Moving a triangle along a curved path](https://codepen.io/ericwilligers/pen/jMbJPp) on CodePen by Eric Willigers
+  - [Moving a pair of scissors along the shape of a house](https://codepen.io/ericwilligers/pen/bwVZNa) on CodePen by Eric Willigers
   - [Moving multiple pairs of eyes](https://jsfiddle.net/ericwilligers/r1snqdan/) on JSFiddle by Eric Willigers

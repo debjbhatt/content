@@ -15,7 +15,7 @@ This article provides information about the changes in Firefox 58 that will affe
 - The [Shape Path Editor](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/edit_css_shapes/index.html) has been enabled by default for shapes generated via {{cssxref("clip-path")}} ([Firefox bug 1405339](https://bugzil.la/1405339)).
 - The [Network Monitor](https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/index.html) now has a button to [pause/play recording of network traffic](https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/index.html#pausing-and-resume-network-traffic-recording) ([Firefox bug 1005755](https://bugzil.la/1005755)).
 - In the [Network Monitor](https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/index.html) the "Flash" filter button is no longer available, and Flash requests are included in the "Others" filter ([Firefox bug 1413540](https://bugzil.la/1413540)).
-- The code for the old Responsive Design Mode (enabled by default pre-Firefox 52) has now been removed from the Devtools ([Firefox bug 1305777](https://bugzil.la/1305777)). See [Responsive Design Mode](https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/index.html) for information on the new tools.
+- The code for the old Responsive Design Mode (enabled by default pre-Firefox 52) has now been removed from the DevTools ([Firefox bug 1305777](https://bugzil.la/1305777)). See [Responsive Design Mode](https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/index.html) for information on the new tools.
 - The option to view MDN docs from the CSS pane of the page inspector has been removed ([Firefox bug 1382171](https://bugzil.la/1382171)) (was disabled since 55, [Firefox bug 1352801](https://bugzil.la/1352801)).
 
 ### HTML
@@ -90,7 +90,7 @@ _No changes._
 ### Other
 
 - "Add to home screen" is now supported in Firefox for Android, part of the [Progressive Web Apps](/en-US/docs/Web/Progressive_web_apps) effort ([Firefox bug 1212648](https://bugzil.la/1212648)).
-- [WebAssembly](/en-US/docs/WebAssembly) now has a tiered compiler providing load time optimizations ([Firefox bug 1277562](https://bugzil.la/1277562)), and new streaming APIs — [`WebAssembly.compileStreaming()`](/en-US/docs/WebAssembly/JavaScript_interface/compileStreaming_static) and [`WebAssembly.instantiateStreaming()`](/en-US/docs/WebAssembly/JavaScript_interface/instantiateStreaming_static) [Firefox bug 1347644](https://bugzil.la/1347644).
+- [WebAssembly](/en-US/docs/WebAssembly) now has a tiered compiler providing load time optimizations ([Firefox bug 1277562](https://bugzil.la/1277562)), and new streaming APIs — [`WebAssembly.compileStreaming()`](/en-US/docs/WebAssembly/Reference/JavaScript_interface/compileStreaming_static) and [`WebAssembly.instantiateStreaming()`](/en-US/docs/WebAssembly/Reference/JavaScript_interface/instantiateStreaming_static) [Firefox bug 1347644](https://bugzil.la/1347644).
 
 ## Removals from the web platform
 

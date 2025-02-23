@@ -3,6 +3,8 @@ title: "DelegatedInkTrailPresenter: updateInkTrailStartPoint() method"
 short-title: updateInkTrailStartPoint()
 slug: Web/API/DelegatedInkTrailPresenter/updateInkTrailStartPoint
 page-type: web-api-instance-method
+status:
+  - experimental
 browser-compat: api.DelegatedInkTrailPresenter.updateInkTrailStartPoint
 ---
 
@@ -13,7 +15,7 @@ The **`updateInkTrailStartPoint()`** method of the {{domxref("DelegatedInkTrailP
 ## Syntax
 
 ```js-nolint
-requestPresenter(event, style)
+updateInkTrailStartPoint(event, style)
 ```
 
 ### Parameters
